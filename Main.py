@@ -10,7 +10,7 @@ b = 0
 offer1 = "d43acddc-7e8d-4419-a8b6-8ddb9acf76a8"
 
 
-client = pymongo.MongoClient("REDACTED-CREDENTIAL/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongo string here")
 db = client.Test
 
 #funcs
